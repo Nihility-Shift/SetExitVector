@@ -20,7 +20,7 @@ Requires VoidManager 1.0.7
 ### 🎮 Client Usage
 
 - Simply install
-- Toggle using GUI at F5 > Mod Settings > Pilot HUD
+- Toggle using GUI at F5 > Mod Settings > Set Exit Vector
 
 ### 👥 Multiplayer Functionality
 

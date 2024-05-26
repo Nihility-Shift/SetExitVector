@@ -4,7 +4,7 @@
 
 # Set Exit Vector
 
-Version 0.0.0  
+Version 1.0.0  
 For Game Version 0.25.2  
 Developed by 18107  
 Requires VoidManager 1.0.7
@@ -14,13 +14,13 @@ Requires VoidManager 1.0.7
 
 ### 💡 Function
 
-- Automatically sets the exit vector when the void drive is charged
-- Toggle using GUI
+- Automatically sets the exit vector when the void drive is charged, and a destination sector when entering a void jump
+- Configure using GUI
 
 ### 🎮 Client Usage
 
 - Simply install
-- Toggle using GUI at F5 > Mod Settings > Set Exit Vector
+- Configure using GUI at F5 > Mod Settings > Set Exit Vector
 
 ### 👥 Multiplayer Functionality
 

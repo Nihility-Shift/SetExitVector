@@ -9,7 +9,7 @@ namespace SetExitVector
     {
         public const string PLUGIN_GUID = "id107.setexitvector";
         public const string PLUGIN_NAME = "SetExitVector";
-        public const string PLUGIN_VERSION = "0.0.0";
+        public const string PLUGIN_VERSION = "1.0.0";
     }
 
     [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
@@ -17,12 +17,12 @@ namespace SetExitVector
     [BepInDependency("VoidManager")]
     public class BepinPlugin : BaseUnityPlugin
     {
-        public static bool Enabled { get; set; } = true;
         internal static ManualLogSource Log;
         private void Awake()
         {
             Log = Logger;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly(), MyPluginInfo.PLUGIN_GUID);
+            PluginConfig.BindConfigs(this);
             Logger.LogInfo($"Plugin {MyPluginInfo.PLUGIN_GUID} is loaded!");
         }
     }

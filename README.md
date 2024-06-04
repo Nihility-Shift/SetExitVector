@@ -4,10 +4,10 @@
 
 # Set Exit Vector
 
-Version 1.0.0  
-For Game Version 0.25.2  
+Version 1.0.1  
+For Game Version 0.26.1  
 Developed by 18107  
-Requires VoidManager 1.0.7
+Requires VoidManager 1.0.9
 
 
 ---------------------

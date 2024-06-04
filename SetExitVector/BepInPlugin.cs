@@ -9,7 +9,7 @@ namespace SetExitVector
     {
         public const string PLUGIN_GUID = "id107.setexitvector";
         public const string PLUGIN_NAME = "SetExitVector";
-        public const string PLUGIN_VERSION = "1.0.0";
+        public const string PLUGIN_VERSION = "1.0.1";
     }
 
     [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]

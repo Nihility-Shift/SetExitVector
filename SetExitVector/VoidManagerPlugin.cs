@@ -4,7 +4,7 @@ namespace SetExitVector
 {
     public class VoidManagerPlugin : VoidManager.VoidPlugin
     {
-        public override MultiplayerType MPType => MultiplayerType.Client;
+        public override MultiplayerType MPType => MultiplayerType.Host;
 
         public override string Author => MyPluginInfo.PLUGIN_AUTHORS;
 
@@ -12,6 +12,9 @@ namespace SetExitVector
 
         public override string ThunderstoreID => MyPluginInfo.PLUGIN_THUNDERSTORE_ID;
 
-        public override string Description => "Automatically sets the exit vector when the void drive is charged, and a destination sector when entering a void jump";
+        public override SessionChangedReturn OnSessionChange(SessionChangedInput input)
+        {
+            return new SessionChangedReturn() { SetMod_Session = true };
+        }
     }
 }

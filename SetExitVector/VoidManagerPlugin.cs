@@ -1,4 +1,5 @@
-﻿using VoidManager.MPModChecks;
+﻿using VoidManager;
+using VoidManager.MPModChecks;
 
 namespace SetExitVector
 {

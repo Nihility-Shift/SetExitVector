@@ -15,6 +15,7 @@ namespace SetExitVector
                 PluginConfig.ExitVector.Value = !PluginConfig.ExitVector.Value;
             }
 
+            /* features disabled
             Label("When entering a Void Jump");
             if (Button($"Select Side Quests: {(PluginConfig.SideQuestSector.Value ? "Enabled" : "Disabled")}"))
             {
@@ -28,6 +29,7 @@ namespace SetExitVector
             {
                 PluginConfig.ExitSector.Value = !PluginConfig.ExitSector.Value;
             }
+            */
         }
     }
 }

@@ -1,5 +1,5 @@
-﻿using CG.Game.SpaceObjects.Controllers;
-using CG.Ship.Modules;
+﻿using CG.Ship.Modules;
+using Gameplay.Ship.VoidJump;
 using HarmonyLib;
 using Photon.Pun;
 
